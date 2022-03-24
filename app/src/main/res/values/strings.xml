@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tree Map</string>
+    <string name="html">HTML</string>
+    <string name="google">Google</string>
+    <string name="clock">Clock</string>
+    <string name="date">Date</string>
+    <string name="buttonText">Map</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
