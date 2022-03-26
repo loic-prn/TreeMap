@@ -68,12 +68,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 mMap.addMarker(new MarkerOptions().position(new LatLng(trees.get(i).getX(),trees.get(i).getY())).title(trees.get(i).getName()));
             }
         }
-        LatLng sydney = new LatLng(48.8566, 2.3522);
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 11));
+        LatLng paris = new LatLng(48.8566, 2.3522);
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(paris, 11));
 
         LocationManager loc = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         if(ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            Log.d("MapsActivity", "Y a pas de gps gros naze");
+            Log.d("MapsActivity", "No GPS");
             return;
         }
 

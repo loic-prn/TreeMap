@@ -6,11 +6,11 @@ The data come from opendata and are open to everyone on this link:
 https://public.opendatasoft.com/explore/dataset/arbresremarquablesparis2011/table/
 
 ## Todo
-- [x] each loaded tree on a map
-- [x] load trees on scroll
-- [x] show the selected tree on the map
-- [x] show more informations about one selected tree
-- [ ] user position when on map
-- [x] load every trees button
-- [x] refresh already loaded trees button
-- [ ] multi languages
+- [x] Establish connection and load json
+- [x] Parse json and show it in ListView
+- [x] Make Tree class to store data
+- [x] Better the ListView (my own adapter)
+- [x] Put trees on Google Maps
+- [x] Check internet connection
+- [ ] Preferences
+- [x] Splash Screen
